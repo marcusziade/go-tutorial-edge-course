@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
+	createSwitch()
+}
+
+func createSwitch() {
 	// switch statements
 	customerHeight := 100
 	customerAge := 10
