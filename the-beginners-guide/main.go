@@ -6,7 +6,16 @@ import (
 )
 
 func main() {
-	createArray()
+	createForLoop()
+}
+
+func createForLoop() {
+	for i := 0; i < 10; i++ {
+		if i%2 != 0 {
+			continue
+		}
+		println(i)
+	}
 }
 
 func createArray() {
