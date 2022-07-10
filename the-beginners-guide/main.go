@@ -6,7 +6,20 @@ import (
 )
 
 func main() {
-	createForLoop()
+	println(createReturningFunction(1, 2))
+}
+
+func createReturningFunction(a int, b int) (int, string) {
+	total := a + b
+	if total < 5 {
+		return total, "Too small"
+	} else {
+		return total, "-- 5 or bigger"
+	}
+}
+
+func createName(name string, age int) {
+	println("Hello", name, "You are", age, "Years old")
 }
 
 func createForLoop() {
