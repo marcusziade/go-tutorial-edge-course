@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	println(createReturningFunction(1, 2))
+	
 }
 
 func createReturningFunction(a int, b int) (int, string) {
